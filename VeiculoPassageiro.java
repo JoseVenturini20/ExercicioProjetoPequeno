@@ -1,10 +1,10 @@
 public class VeiculoPassageiro implements Veiculo {
-    public String placa;
-    public String marca;
-    public String modelo;
-    public Integer ano;
-    public Double valor;
-    public Integer nroPass;
+    private String placa;
+    private String marca;
+    private String modelo;
+    private Integer ano;
+    private Double valor;
+    private Integer nroPass;
 
     public VeiculoPassageiro(String placa, String marca, String modelo, Integer ano, Double valor, Integer nroPass) {
         this.placa = placa;

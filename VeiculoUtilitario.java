@@ -1,11 +1,11 @@
 public class VeiculoUtilitario {
-    public String placa;
-    public String marca;
-    public String modelo;
-    public Integer ano;
-    public Double valor;
-    public Integer capCargaTon;
-    public Integer numEixos;
+    private String placa;
+    private String marca;
+    private String modelo;
+    private Integer ano;
+    private Double valor;
+    private Integer capCargaTon;
+    private Integer numEixos;
 
     public VeiculoUtilitario(String placa, String marca, String modelo, Integer ano, Double valor, Integer capCargaTon,
             Integer numEixos) {
