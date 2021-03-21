@@ -1,4 +1,4 @@
-public class VeiculoUtilitario {
+public class VeiculoUtilitario implements Veiculo{
     private String placa;
     private String marca;
     private String modelo;
