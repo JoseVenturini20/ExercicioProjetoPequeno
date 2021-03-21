@@ -24,4 +24,16 @@ public class VeiculoUtilitario implements Veiculo{
                 + " Capacidade de carga: " + capCargaTon + " Num Eixos: " + numEixos;
         return aux;
     }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public Integer getAno() {
+        return ano;
+    }
 }
