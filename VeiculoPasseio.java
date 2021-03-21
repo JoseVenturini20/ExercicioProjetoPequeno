@@ -15,6 +15,18 @@ public class VeiculoPasseio implements Veiculo {
         this.consumoKmLt = consumoKmLt;
     }
 
+    public String getPlaca() {
+        return placa;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public Integer getAno() {
+        return ano;
+    }
+
     @Override
     public String toString() {
         String aux = "Placa: " + placa + " Marca: " + marca + " Modelo: " + modelo + " Ano: " + ano + " Valor: " + valor
